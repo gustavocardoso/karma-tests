@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Fri May 08 2015 21:55:21 GMT-0400 (Eastern Daylight Time)
+// Generated on Mon Oct 05 2015 23:45:48 GMT-0300 (BRT)
 
 module.exports = function(config) {
   config.set({
@@ -62,5 +62,5 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false
-  });
-};
+  })
+}
