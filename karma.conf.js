@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon Oct 05 2015 23:45:48 GMT-0300 (BRT)
+// Generated on Fri May 08 2015 21:55:21 GMT-0400 (Eastern Daylight Time)
 
 module.exports = function(config) {
   config.set({
@@ -51,15 +51,16 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: true,
+    autoWatch: false,
 
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
+    browsers: ['Firefox'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
-  })
-}
+    singleRun: false
+  });
+};
