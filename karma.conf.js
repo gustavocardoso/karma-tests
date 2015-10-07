@@ -56,18 +56,10 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Firefox'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
-
-    plugins: [
-      'karma-jasmine',
-      'karma-firefox-launcher',
-      //'karma-firefox-launcher',
-      //'karma-safari-launcher'
-    ]
   })
 }
